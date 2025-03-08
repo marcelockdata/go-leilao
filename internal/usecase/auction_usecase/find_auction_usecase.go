@@ -6,6 +6,7 @@ import (
 	"github.com/marcelockdata/go-leilao/configuration/logger"
 	"github.com/marcelockdata/go-leilao/internal/entity/auction_entity"
 	"github.com/marcelockdata/go-leilao/internal/internal_error"
+	"github.com/marcelockdata/go-leilao/internal/usecase/bid_usecase"
 )
 
 func (au *AuctionUseCase) FindAuctionById(

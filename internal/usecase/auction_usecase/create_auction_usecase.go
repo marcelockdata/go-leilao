@@ -8,6 +8,7 @@ import (
 	"github.com/marcelockdata/go-leilao/internal/entity/auction_entity"
 	"github.com/marcelockdata/go-leilao/internal/entity/bid_entity"
 	"github.com/marcelockdata/go-leilao/internal/internal_error"
+	"github.com/marcelockdata/go-leilao/internal/usecase/bid_usecase"
 )
 
 type AuctionInputDTO struct {

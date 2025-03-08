@@ -7,6 +7,7 @@ import (
 
 	"github.com/marcelockdata/go-leilao/configuration/logger"
 	"github.com/marcelockdata/go-leilao/internal/entity/user_entity"
+	"github.com/marcelockdata/go-leilao/internal/internal_error"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )
