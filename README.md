@@ -24,6 +24,13 @@ make down
 make run
 ```
 
+Post
+http://localhost:8080/auction
+{
+    "product_name": "Produto 1",           
+	"category" : "caterotia 1",  
+	"description": "Descrição 1"
+}
 
 
 ## Funcionalidades da Linguagem Utilizadas
